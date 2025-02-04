@@ -1,0 +1,325 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #ce3434;
+    color: white;
+    padding: 5px 0;
+    border-top: 5px solid red; /* red line at the top */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    margin-left: 0px;
+}
+
+header .logo img {
+    height: 50px; /* Increase the height of the logo */
+}
+
+nav {
+    margin-right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #b92e2e;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align the text */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h1, section h2 {
+    color: #db3939;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: rgb(240, 222, 222);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#resultTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#resultTable th, #resultTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#resultTable th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+h2 {
+    color: #333;
+}
+
+.chart-container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+    background-color: #f4f4f4;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin: auto;
+}
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #218838;
+}
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Add border to Exponential Growth Model Predictor */
+.predictor-container {
+    border: 2px solid #ce3434;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    text-align: left; /* Align text to the left */
+}
+
+.predictor-container label,
+.predictor-container input,
+.predictor-container button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.predictor-container input,
+.predictor-container button {
+    width: calc(100% - 20px); /* Adjust width to fit within the container */
+    margin-left: 10px; /* Add some left margin for better alignment */
+}
+
+/* Apply background image */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('hiv-virus-3d-model-max.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Ensure text is readable */
+}
+
+/* Add a semi-transparent overlay for better readability */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(136, 127, 127, 0.5); /* Dark overlay */
+    z-index: -1;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(184, 165, 165, 0.7);
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:   white color(252, 252, 252);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Centering main content */
+main {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Styling form elements */
+.predictor-container {
+    background: rgba(255, 255, 255, 0.973); /* Light transparent background for visibility */
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: rgb(202, 39, 39); /* Ensures all text inside is visible */
+}
+
+.predictor-container label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold; /* Makes labels more readable */
+    margin-top: 10px;
+    color: rgb(10, 10, 10); /* Ensures labels are visible */
+}
+
+.predictor-container input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 194, 194); /* Makes input fields more defined */
+    font-size: 16px;
+    background: rgba(245, 242, 242, 0.904);
+    color: rgb(10, 10, 10); /* Ensures text inside input is visible */
+}
+
+.predictor-container input::placeholder {
+    color: #db3a3a; /* Light color for placeholders */
+}
+
+.predictor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers everything inside the container */
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.predictor-container input {
+    width: 50%; /* Adjust width as needed */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(8, 8, 8);
+    text-align: center; /* Centers user input text */
+}
+
+.predictor-container input::placeholder {
+    color: #ddd;
+    text-align: center; /* Centers placeholder text */
+}
+
+.predictor-container button {
+    width: 50%; /* Same width as input */
+    padding: 10px;
+    background-color: #ff4747;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.predictor-container button:hover {
+    background-color: #d33;
+}
